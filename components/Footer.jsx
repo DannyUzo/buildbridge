@@ -18,7 +18,7 @@ const Footer = () => (
         <h4 className="font-bold md:text-[44px] flex flex-col text-[34px] text-white">
           Build Bridge
           <span className="text-base text-slate-500">
-            Where innovation meets imagination.
+            Where innovation meets Imagination.
           </span>
         </h4>
         <button
