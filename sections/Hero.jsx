@@ -30,7 +30,7 @@ const Hero = () => (
       >
         <div className="hidden md:flex  w-full h-[5px] border hero-gradient rounded-tl-[20px] rounded-bl-[20px] z-[0] -top-[30px]" />
       </motion.div>
-      <motion.p variants={textVariant(1.1)} className="text-lg w-1/12 text-center sm:w-auto p-10 font-sans text-semibold text-slate-300">
+      <motion.p variants={textVariant(1.1)} className="text-lg w-11/12 text-center sm:w-auto p-10 font-sans text-semibold text-slate-300">
         "Building Bridges to Tomorrow's Digital Frontiers with Build Bridge:
         Where Innovation Meets Imagination."
       </motion.p>
