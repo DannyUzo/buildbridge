@@ -1,15 +1,16 @@
-"use client";
+'use client';
 
-import { motion } from "framer-motion";
-import styles from "../styles";
-import { navVariants } from "../utils/motion";
-import { useState } from "react";
-import { navLinks } from "../constants";
-import { UseScrollTop } from "../hooks/use-scroll-top";
+import { useState } from 'react';
+
+import { motion } from 'framer-motion';
+import styles from '../styles';
+import { navVariants } from '../utils/motion';
+import { navLinks } from '../constants';
+import { UseScrollTop } from '../hooks/use-scroll-top';
 
 const Navbar = () => {
   const [sidebar, setSidebar] = useState(false);
-  const scrolled  = UseScrollTop();
+  const scrolled = UseScrollTop();
   const toggleSidebar = () => {
     setSidebar(true);
   };
@@ -19,7 +20,7 @@ const Navbar = () => {
       variants={navVariants}
       initial="hidden"
       whileInView="show"
-      className={`${styles.xPaddings} py-8 relative ${scrolled && "border-b border-b-slate-500  shadow-sm bg-primary-black py-4"}`}
+      className={`${styles.xPaddings} py-8 relative ${scrolled ? 'border-b border-b-slate-500  shadow-sm bg-primary-black py-4' : ' '}`}
     >
       <div
         className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}
@@ -28,17 +29,12 @@ const Navbar = () => {
           💻
         </h2>
         {/* <img src="/web-traffic.png" alt="logo" className="w-[24px] h-[24px]"/> */}
-
         <div className="hidden sm:flex lg:flex md:flex gap-5 text-white font-bold">
-          
-          {navLinks.map((links) => {
-            return(
-
-          <a key={links.id} href={links.href}>
-          <span>{links.title}</span>
-          </a>
-            )
-          })}
+          {navLinks.map((links) => (
+            <a key={links.id} href={links.href}>
+              <span>{links.title}</span>
+            </a>
+          ))}
         </div>
         <img
           src="/menu.svg"
@@ -55,14 +51,15 @@ const Navbar = () => {
               Close
             </span>
             <div className="flex w-full items-center justify-center text-lg text-slate-500 gap-10 flex-col z-50">
-            {navLinks.map((links) => {
-            return(
-
-          <a onClick={() => setSidebar(false)} key={links.id} href={links.href}>
-          <span>{links.title}</span>
-          </a>
-            )
-          })}
+              {navLinks.map((links) => (
+                <a
+                  onClick={() => setSidebar(false)}
+                  key={links.id}
+                  href={links.href}
+                >
+                  <span>{links.title}</span>
+                </a>
+              ))}
             </div>
           </div>
         )}
@@ -70,5 +67,4 @@ const Navbar = () => {
     </motion.nav>
   );
 };
-
 export default Navbar;
