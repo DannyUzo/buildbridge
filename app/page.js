@@ -1,15 +1,15 @@
 import { Footer, Navbar } from "../components";
 import {
   About,
-  Feedback,
-  GetStarted,
+  Contact,
+  Internships,
   Hero,
-  Insights,
-  WhatsNew,
+  Blog,
+  Products,
 } from "../sections";
 
 const Page = () => (
-  <div className="bg-primary-black relative overflow-hidden">
+  <div className="bg-primary-black relative overflow-hidden flex flex-col gap-y-28">
     <div className="fixed mt-0 z-[99999] w-full"> 
     <Navbar />
     </div>
@@ -19,16 +19,16 @@ const Page = () => (
     <div className="relative">
       <About />
       <div className="gradient-03 z-0" />
+      <Products/>
     </div>
     <div className="relative">
-      <GetStarted />
+      <Internships />
       <div className="gradient-04 z-0" />
-      <WhatsNew />
     </div>
     <div className="relative">
-      <Insights />
+      <Blog />
       <div className="gradient-04 z-0" />
-      <Feedback />
+      <Contact />
     </div>
     <Footer />
   </div>

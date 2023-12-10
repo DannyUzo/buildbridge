@@ -1,15 +1,15 @@
 import Hero from './Hero';
 import About from './About';
-import GetStarted from './GetStarted';
-import WhatsNew from './WhatsNew';
-import Insights from './Insights';
-import Feedback from './Feedback';
+import Internships from './Internships';
+import Blog from './Blog';
+import Contact from './Contact';
+import Products from './Products';
 
 export {
   Hero,
   About,
-  GetStarted,
-  WhatsNew,
-  Insights,
-  Feedback,
+  Products,
+  Internships,
+  Blog,
+  Contact,
 };

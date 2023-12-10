@@ -9,6 +9,8 @@ const styles = {
   bottomPaddings: 'sm:pb-16 xs:pb-8 pb-12',
 
   flexCenter: 'flex justify-center items-center',
+  flexColLg: 'flex flex-col justify-center items-center gap-y-10',
+  flexCol: 'flex flex-col justify-center items-center gap-y-5',
   flexStart: 'flex justify-start items-start',
   flexEnd: 'flex justify-end',
   navPadding: 'pt-[98px]',

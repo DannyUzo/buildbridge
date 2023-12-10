@@ -6,63 +6,155 @@ export const navLinks = [
   },
   {
     id: 'about',
-    title: 'About',
+    title: 'About Us',
     href: '#about'
   },
   {
-    id: 'getstarted',
-    title: 'Get started',
-    href: '#getStarted'
+    id: 'products',
+    title: 'Products',
+    href: '#products'
   },
   {
-    id: 'insights',
-    title: 'Insights',
-    href: '#insights'
+    id: 'internships',
+    title: 'Internships',
+    href: '#Internships'
+  },
+  {
+    id: 'blog',
+    title: 'Blog',
+    href: '#blog'
+  },
+  {
+    id: 'contact',
+    title: 'Contact',
+    href: '#contact'
   }
 
 ]
 
+export const teamMembers = [
+  {
+    id: '1',
+    imgUrl: '/web-02.jpg',
+    name: 'Emmy',
+    role: 'Founder | Senior developer',
+    techStack: 'React,Typescript,NodeJs and all other languages'
+  },
+  {
+    id: '2',
+    imgUrl: '/web-02.jpg',
+    name: 'Emmy',
+    role: 'Founder | Senior developer',
+    techStack: 'React,Typescript,NodeJs and all other languages'
+  },
+  {
+    id: '3',
+    imgUrl: '/web-02.jpg',
+    name: 'Emmy',
+    role: 'Founder | Senior developer',
+    techStack: 'React,Typescript,NodeJs and all other languages'
+  },
+  {
+    id: '4',
+    imgUrl: '/web-02.jpg',
+    name: 'Emmy',
+    role: 'Founder | Senior developer',
+    techStack: 'React,Typescript,NodeJs and all other languages'
+  },
+]
+
 export const startingFeatures = [
-  'Find which software product suits you',
-  'Click on the Enter button below and Explore our vast collection of Templates and Services',
-  'No need to beat around the bush, just stay on the gas and have fun. We got you covered',
+  'Choose any track of your choice',
+  'Register and fill in all required information',
+  'Pay registration fee',
 ];
 
-export const newFeatures = [
-  {
-    imgUrl: '/vrpano.svg',
-    title: 'Next.js Updates',
-    subtitle:
-        'we have the latest updates on Software with Next 14 App router, SSR and the all new NextUi',
-  },
-  {
-    imgUrl: '/headset.svg',
-    title: 'Shadcn/UI',
-    subtitle:
-        'In the latest update, we introduced a new reuseble components collection , making the user interface more realistic than ever',
-  },
-];
+
 
 export const insights = [
   {
     imgUrl: '/web-02.jpg',
-    title: 'Get Software Products and services at Affordale price',
+    title: 'Web Components',
     subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+        'This is a full insight on web components, its uses, functions and possible uses for the future along with a complete guide on how to ue them.',
   },
   {
     imgUrl: '/web-01.jpg',
-    title: 'Join Our Internship Program',
+    title: 'The Secret to a good Landing Page',
     subtitle:
-    'Embark on a transformative journey with Build Bridge! Our internship program invites aspiring software developers to join a vibrant community dedicated to innovation and growth',
+    'In this article we highlight necessary steps to take when building a landing page. This article is carved out from our method of building landing page templates.',
   },
   {
     imgUrl: '/web-design.jpg',
-    title: 'With one platform you can explore different options and templates of your choice',
+    title: 'Design Ethics: The Dynamics of UI/UX',
     subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+        'Expand your creativity and UI skills a we unravel products design techniques and rules.',
   },
 ];
+
+export const products = [
+  {
+    id: '1',
+    name: 'PortfolioCraft',
+    summary: 'A highly customizable and interactive personal portfolio website to showcase skills, projects, and achievements.',
+  },
+  {
+    id: '2',
+    name: 'MetaBlog',
+    summary: 'A sophisticated blogging platform with advanced features for seasoned writers, including rich media integration and collaborative tools.',
+  },
+  {
+    id: '3',
+    name: 'NexquisiteShop',
+    summary: 'An advanced e-commerce site built with Next.js, incorporating features like real-time inventory tracking, dynamic pricing, and AI-driven recommendations.',
+  },
+  {
+    id: '4',
+    name: 'SocialPulseDashboard',
+    summary: 'A comprehensive social media dashboard with analytics, scheduling, and engagement tracking for managing multiple platforms.',
+  },
+  {
+    id: '5',
+    name: 'GourmetHub',
+    summary: 'A high-end recipe sharing website with advanced search capabilities, user ratings, and personalized recipe collections.',
+  },
+  {
+    id: '6',
+    name: 'EventXperience',
+    summary: 'A feature-rich event management system for planning, organizing, and promoting events of any scale.',
+  },
+  {
+    id: '7',
+    name: 'ResumeCraft',
+    summary: 'An online resume builder with advanced customization options, dynamic content suggestions, and real-time preview.',
+  },
+  {
+    id: '8',
+    name: 'VoyageSphere',
+    summary: 'An immersive travel booking website with personalized recommendations, itinerary planning, and integrated travel guides.',
+  },
+  {
+    id: '9',
+    name: 'QuizMinds',
+    summary: 'An interactive quiz app with a diverse range of question types, scoring mechanisms, and real-time multiplayer functionality.',
+  },
+  {
+    id: '10',
+    name: 'FitProTracker',
+    summary: 'An advanced fitness tracker with AI-powered workout suggestions, progress analytics, and community integration.',
+  },
+  {
+    id: '11',
+    name: 'WeatherSphere',
+    summary: 'A weather app with precise forecasting, historical data analysis, and personalized weather alerts.',
+  },
+  {
+    id: '12',
+    name: 'RealEstateExpanse',
+    summary: 'A sophisticated real estate listing site with advanced search filters, 3D virtual tours, and investment analysis tools.',
+  }
+];
+
 
 export const socials = [
   {
