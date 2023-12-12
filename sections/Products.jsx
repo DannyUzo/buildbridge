@@ -6,7 +6,7 @@ import { TypingText } from "../components";
 import { fadeIn, staggerContainer } from "../utils/motion";
 import { products, teamMembers } from "../constants";
 import Image from "next/image";
-import ProductCard from "../components/ProductCard";
+import { ProductCard } from "../components/ProductCard";
 import { Button } from "../components/Button";
 
 const Products = () => {

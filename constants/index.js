@@ -35,31 +35,48 @@ export const navLinks = [
 export const teamMembers = [
   {
     id: '1',
-    imgUrl: '/web-02.jpg',
-    name: 'Emmy',
-    role: 'Founder | Senior developer',
-    techStack: 'React,Typescript,NodeJs and all other languages'
+    imgUrl: '/DevEmmy.jpg',
+    name: 'Emmanuel Olaosebikan',
+    role: 'CEO | Senior developer',
+    techStack: 'React,Typescript,NodeJs',
+    twitter: 'https://twitter.com/DevEmmy_',
+    twitterImg: '/twitter.svg',
+    linkedIn: 'https://www.linkedin.com/in/devemmy/',
+    linkedInImg: '/linkedin.svg'
+    
   },
   {
     id: '2',
-    imgUrl: '/web-02.jpg',
-    name: 'Emmy',
-    role: 'Founder | Senior developer',
-    techStack: 'React,Typescript,NodeJs and all other languages'
+    imgUrl: '/DevDann.jpg',
+    name: 'Daniel Uzodinma',
+    role: 'Frontend developer',
+    techStack: 'React,Typescript,Tailwind',
+    twitter: 'https://twitter.com/DannyX236',
+    twitterImg: '/twitter.svg',
+    linkedIn: 'https://www.linkedin.com/in/daniel-uzodinma-6ba3b7293',
+    linkedInImg: '/linkedin.svg'
   },
   {
     id: '3',
-    imgUrl: '/web-02.jpg',
-    name: 'Emmy',
-    role: 'Founder | Senior developer',
-    techStack: 'React,Typescript,NodeJs and all other languages'
+    imgUrl: '/DevEmmy.jpg',
+    name: 'Emmanuel Olaosebikan',
+    role: 'CEO | Senior developer',
+    techStack: 'React,Typescript,NodeJs',
+    twitter: 'https://twitter.com/DevEmmy_',
+    twitterImg: '/twitter.svg',
+    linkedIn: 'https://www.linkedin.com/in/devemmy/',
+    linkedInImg: '/linkedin.svg'
   },
   {
     id: '4',
-    imgUrl: '/web-02.jpg',
-    name: 'Emmy',
-    role: 'Founder | Senior developer',
-    techStack: 'React,Typescript,NodeJs and all other languages'
+    imgUrl: '/DevEmmy.jpg',
+    name: 'Emmanuel Olaosebikan',
+    role: 'CEO | Senior developer',
+    techStack: 'React,Typescript,NodeJs',
+    twitter: 'https://twitter.com/DevEmmy_',
+    twitterImg: '/twitter.svg',
+    linkedIn: 'https://www.linkedin.com/in/devemmy/',
+    linkedInImg: '/linkedin.svg'
   },
 ]
 

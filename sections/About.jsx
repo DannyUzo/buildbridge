@@ -4,8 +4,7 @@ import styles from "../styles";
 import { TypingText } from "../components";
 import { fadeIn, staggerContainer } from "../utils/motion";
 import { teamMembers } from "../constants";
-import Image from "next/image";
-import TeamCard from "../components/TeamCard";
+import { TeamCard } from "../components/TeamCard";
 
 const About = () => (
   <section
@@ -56,7 +55,7 @@ const About = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} ${styles.flexCol} mx-auto gap-y-20`}
+      className={`${styles.innerWidth} ${styles.flexColLg} mx-auto`}
     >
       <div>
         <motion.p
