@@ -58,13 +58,13 @@ export const teamMembers = [
   },
   {
     id: '3',
-    imgUrl: '/DevEmmy.jpg',
-    name: 'Emmanuel Olaosebikan',
-    role: 'CEO | Senior developer',
-    techStack: 'React,Typescript,NodeJs',
-    twitter: 'https://twitter.com/DevEmmy_',
+    imgUrl: '/DevPres.jpg',
+    name: 'Olaniyan Precious',
+    role: 'Frontend developer',
+    techStack: 'React, HTML, CSS, Js',
+    twitter: 'https://twitter.com/historyreigns?t=dYv0KRDAMuAzhtF2IL291A&s=09',
     twitterImg: '/twitter.svg',
-    linkedIn: 'https://www.linkedin.com/in/devemmy/',
+    linkedIn: 'https://www.linkedin.com/in/precious-olaniyan-49886125a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ',
     linkedInImg: '/linkedin.svg'
   },
   {
