@@ -1,7 +1,7 @@
-import { motion } from "framer-motion";
-import Image from "next/image";
+import { motion } from 'framer-motion';
+import Image from 'next/image';
 
-import { fadeIn } from "../utils/motion";
+import { fadeIn } from '../utils/motion';
 
 export const TeamCard = ({
   imgUrl,
@@ -14,7 +14,7 @@ export const TeamCard = ({
   linkedInImg,
 }) => (
   <motion.div
-    variants={fadeIn("up", "tween", 0.2, 1)}
+    variants={fadeIn('up', 'tween', 0.2, 1)}
     className=" lg:max-w-[370px] flex w-[290px] h-[500px] flex-col items-center justify-between gradient-05 sm:p-4 p-2 rounded-[32px] border-[1px] border-[#6a6a6a] relative"
   >
     <Image
