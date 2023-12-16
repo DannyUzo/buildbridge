@@ -9,7 +9,7 @@ import {
 } from "../sections";
 
 const Page = () => (
-  <div className="bg-primary-black relative overflow-hidden flex flex-col gap-y-28">
+  <div className="bg-primary-black relative overflow-hidden flex flex-col gap-y-10 md:gap-y-24">
     <div className="fixed mt-0 z-[99999] w-full"> 
     <Navbar />
     </div>

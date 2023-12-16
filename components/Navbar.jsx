@@ -20,7 +20,7 @@ const Navbar = () => {
       variants={navVariants}
       initial="hidden"
       whileInView="show"
-      className={`${styles.xPaddings} py-8 relative ${scrolled ? 'border-b border-b-slate-500  shadow-sm bg-primary-black py-4' : ' '}`}
+      className={`${sidebar ? 'px-0 py-0' : 'px-8 py-8 '} relative ${scrolled ? 'border-b border-b-slate-500  shadow-sm bg-primary-black py-4' : ' '}`}
     >
       <div
         className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}
@@ -28,7 +28,6 @@ const Navbar = () => {
         <h2 className=" text-[24px] font-serif leading-[30px] text-white">
           💻
         </h2>
-        {/* <img src="/web-traffic.png" alt="logo" className="w-[24px] h-[24px]"/> */}
         <div className="hidden sm:flex lg:flex md:flex gap-5 text-white font-bold">
           {navLinks.map((links) => (
             <a key={links.id} href={links.href}>

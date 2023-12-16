@@ -15,26 +15,25 @@ export const TeamCard = ({
 }) => (
   <motion.div
     variants={fadeIn('up', 'tween', 0.2, 1)}
-    className=" lg:max-w-[370px] flex w-[290px] h-[500px] flex-col items-center justify-between gradient-05 sm:p-4 p-2 rounded-[32px] border-[1px] border-[#6a6a6a] relative"
+    className=" lg:max-w-[370px] flex w-[290px] h-[464px] flex-col items-center justify-between gap-y-1 gradient-05 p-4 rounded-[32px] border-[1px] border-[#6a6a6a] relative"
   >
     <Image
       src={imgUrl}
       width={250}
       height={200}
-      className="object-cover rounded-lg"
+      className="object-cover rounded-2xl sm:rounded-lg"
     />
     <div>
-      <h4 className="font-bold sm:text-[30px] text-[24px] sm:leading-[38px] leading-[34px] text-white ">
+      <h4 className="font-bold  text-center text-[22px]  text-white ">
         {name}
       </h4>
-      <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22px] leading-[16px] text-white ">
+      <p className="mt-[8px] font-normal sm:text-[20px] text-center text-[14px] text-white ">
         {role}
       </p>
+      <p className="mt-[14px]  font-normal text-center sm:text-[12px] text-[12px] text-white">
+        {techStack}
+      </p>
     </div>
-    <p className="mt-[14px] text-left font-normal sm:text-[12px] text-[12px] sm:leading-[35px] leading-[30px] text-white">
-      {techStack}
-    </p>
-    ;
     <div className="flex gap-3">
       <a href={twitter}>
         <img

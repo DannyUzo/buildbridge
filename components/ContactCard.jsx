@@ -5,7 +5,7 @@ import { useForm, ValidationError } from '@formspree/react';
 const ContactCard = () => {
   const [state, handleSubmit] = useForm('xpzgvork');
   if (state.succeeded) {
-    alert('Message Sent');
+    alert('Message Sent. Thanks for reaching out!');
 
     return <ContactCard />;
   }

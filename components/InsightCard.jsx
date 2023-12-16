@@ -13,7 +13,7 @@ const InsightCard = ({ imgUrl, title, subtitle, index }) => (
       alt="planet-01"
       className="md:w-[270px] h-[250px] w-full rounded-[32px] object-cover "
     />
-    <div className="w-full justify-between flex items-center">
+    <div className="w-full justify-evenly flex items-center">
       <div className="flex-1 md:ml-[62px] flex-col max-w-[650px] flex">
         <h4 className="font-normal lg:text-[36px] text-[22px] text-white">
           {title}
