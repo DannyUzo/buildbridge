@@ -22,7 +22,7 @@ export const TeamCard = ({
       width={250}
       height={200}
       alt={name}
-      className="object-cover rounded-2xl sm:rounded-lg w-auto h-auto"
+      className="object-cover rounded-2xl sm:rounded-lg"
     />
     <div>
       <h4 className="font-bold  text-center text-[22px]  text-white ">
