@@ -16,7 +16,7 @@ const About = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto ${styles.flexColLg}`}
+      className={`${styles.innerWidth} mx-auto gap-y-2 md:${styles.flexColLg}`}
     >
       <TypingText title="| About Us" textStyles="text-center" />
       <div>
@@ -57,16 +57,16 @@ const About = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} ${styles.flexColLg} mx-auto`}
     >
-      <div>
+      <div className="-mt-18 sm:-mt-5">
         <motion.p
-          variants={fadeIn("up", "tween", 0.5, 1)}
+          variants={fadeIn("up", "tween", 0.1, 0.7)}
           className=" sm:text-[32px] font-sans font-semibold text-center text-white"
         >
           Team
         </motion.p>
         <motion.p
           variants={fadeIn("up", "tween", 0.5, 1)}
-          className="font-normal text-[14px] text-secondary-white"
+          className="font-normal text-[14px] text-center text-secondary-white"
         >
           Meet our dedicated team of software engineers and developers
         </motion.p>

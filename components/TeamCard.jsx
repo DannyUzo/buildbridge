@@ -21,7 +21,8 @@ export const TeamCard = ({
       src={imgUrl}
       width={250}
       height={200}
-      className="object-cover rounded-2xl sm:rounded-lg"
+      alt={name}
+      className="object-cover rounded-2xl sm:rounded-lg w-auto h-auto"
     />
     <div>
       <h4 className="font-bold  text-center text-[22px]  text-white ">
