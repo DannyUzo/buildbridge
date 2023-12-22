@@ -57,7 +57,7 @@ const About = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} ${styles.flexColLg} mx-auto`}
     >
-      <div className="-mt-18 sm:-mt-5">
+      <div>
         <motion.p
           variants={fadeIn("up", "tween", 0.1, 0.7)}
           className=" sm:text-[32px] font-sans font-semibold text-center text-white"
