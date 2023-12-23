@@ -9,21 +9,21 @@ export const navLinks = [
     title: 'About Us',
     href: '#about'
   },
-  {
-    id: 'products',
-    title: 'Products',
-    href: '#products'
-  },
+  // {
+  //   id: 'products',
+  //   title: 'Products',
+  //   href: '#products'
+  // },
   {
     id: 'internships',
     title: 'Internships',
     href: '#Internships'
   },
-  {
-    id: 'blog',
-    title: 'Blog',
-    href: '#blog'
-  },
+  // {
+  //   id: 'blog',
+  //   title: 'Blog',
+  //   href: '#blog'
+  // },
   {
     id: 'contact',
     title: 'Contact',
@@ -81,9 +81,9 @@ export const teamMembers = [
 ]
 
 export const startingFeatures = [
-  'Choose any track of your choice',
-  'Register and fill in all required information',
-  'Pay registration fee',
+  'Choose any track of your choice.',
+  'Register and fill in all required information.',
+  'Await an Email from us.',
 ];
 
 

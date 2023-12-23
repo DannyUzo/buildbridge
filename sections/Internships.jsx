@@ -39,8 +39,8 @@ const Internships = () => (
             ))}
           </div>
           <div className="flex flex-wrap gap-4">
-            <Button title="More info" />
-            <Button title="Sign Up" variant="bg-slate-600" />
+            {/* <Button title="More info" /> */}
+            <Button title="Coming soon" variant="bg-slate-600" />
           </div>
         </div>
       </motion.div>

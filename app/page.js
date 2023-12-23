@@ -9,7 +9,7 @@ import {
 } from "../sections";
 
 const Page = () => (
-  <div className="bg-primary-black relative overflow-hidden flex flex-col gap-y-10 md:gap-y-24">
+  <div className="bg-primary-black relative overflow-hidden flex flex-col gap-y-10">
     <div className="fixed mt-0 z-[99999] w-full"> 
     <Navbar />
     </div>
@@ -19,14 +19,14 @@ const Page = () => (
     <div className="relative">
       <About />
       <div className="gradient-03 z-0" />
-      <Products/>
+      {/* <Products/> */}
     </div>
     <div className="relative">
       <Internships />
       <div className="gradient-04 z-0" />
     </div>
     <div className="relative">
-      <Blog />
+      {/* <Blog /> */}
       <div className="gradient-04 z-0" />
       <Contact />
     </div>

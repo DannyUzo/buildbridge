@@ -15,14 +15,14 @@ export const TeamCard = ({
 }) => (
   <motion.div
     variants={fadeIn('up', 'tween', 0.2, 1)}
-    className=" lg:max-w-[370px] flex w-[290px] h-[464px] flex-col items-center justify-between gap-y-1 gradient-05 p-4 rounded-[32px] border-[1px] border-[#6a6a6a] relative"
+    className="flex w-[320px] h-[468px] flex-col items-center justify-between gap-y-1 gradient-05 p-4 rounded-[32px] border-[1px] border-[#6a6a6a] relative"
   >
     <Image
       src={imgUrl}
       width={250}
       height={200}
       alt={name}
-      className="object-cover rounded-2xl sm:rounded-lg"
+      className="object-cover w-full rounded-2xl sm:rounded-lg"
     />
     <div>
       <h4 className="font-bold  text-center text-[22px]  text-white ">

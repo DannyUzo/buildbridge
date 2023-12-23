@@ -8,7 +8,7 @@ import { TeamCard } from "../components/TeamCard";
 
 const About = () => (
   <section
-    className={`${styles.paddings} relative z-10 mt-20 flex flex-col gap-y-28`}
+    className={`${styles.paddings} relative z-10 mt-20 flex flex-col gap-y-20`}
     id="about"
   >
     <motion.div
