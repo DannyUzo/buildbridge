@@ -78,6 +78,15 @@ export const teamMembers = [
     linkedIn: 'https://www.linkedin.com/in/simeon-ogunyinka-89144b280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     linkedInImg: '/linkedin.svg'
   },
+  {
+    id: '5',
+    imgUrl: '/DevBobs.jpg',
+    name: 'Black Bobs',
+    role: 'Frontend Developer',
+    techStack: 'React & Tailwind',
+    twitter: 'https://twitter.com/bobs_dev',
+    twitterImg: '/twitter.svg',
+  }
 ]
 
 export const startingFeatures = [
