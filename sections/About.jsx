@@ -50,35 +50,25 @@ const About = () => (
         Innovation | Collaboration | Progress
       </motion.span>
     </motion.div> */}
-    <motion.div
-      variants={staggerContainer}
-      initial="hidden"
-      whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} ${styles.flexColLg} mx-auto`}
-    >
-      <div>
-        <motion.p
-          variants={fadeIn("up", "tween", 0.1, 0.7)}
-          className=" sm:text-[32px] font-sans font-semibold text-center text-white"
-        >
-          Team
-        </motion.p>
-        <motion.p
-          variants={fadeIn("up", "tween", 0.5, 1)}
-          className="font-normal text-[14px] text-center text-secondary-white"
-        >
-          Meet our dedicated team of software engineers and developers
-        </motion.p>
-      </div>
-      <div className={`${styles.flexCenter} flex-wrap gap-5`}>
-        {teamMembers.map((team) => {
-          return (
-            <TeamCard key={team.id} {...team} />
-          );
-        })}
-      </div>
-    </motion.div>
+    <div>
+      <motion.p
+        variants={fadeIn("up", "tween", 0.1, 0.7)}
+        className=" sm:text-[32px] font-sans font-semibold text-center text-white"
+      >
+        Team
+      </motion.p>
+      <motion.p
+        variants={fadeIn("up", "tween", 0.5, 1)}
+        className="font-normal text-[14px] text-center text-secondary-white"
+      >
+        Meet our dedicated team of software engineers and developers
+      </motion.p>
+    </div>
+    <div className={`${styles.flexCenter} flex-wrap gap-5`}>
+      {teamMembers.map((team) => {
+        return <TeamCard key={team.id} {...team} />;
+      })}
+    </div>
   </section>
 );
 
