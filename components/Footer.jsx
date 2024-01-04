@@ -29,12 +29,11 @@ const Footer = () => (
             Build Bridge
           </h4>
           <p className="font-normal text-[14px] text-white opacity-50">
-            Copyright 2023. All rights reserved.
+            Copyright 2024. All rights reserved.
           </p>
-          <div className="flex gap-4">
+          {/* <div className="flex gap-4">
             <p className="text-secondary-white">Terms & Conditions</p>
-
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
