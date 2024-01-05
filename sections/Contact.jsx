@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import styles from "../styles";
-import { fadeIn, staggerContainer, zoomIn } from "../utils/motion";
+import { fadeIn, staggerContainer } from "../utils/motion";
 import { ContactCard, TitleText } from "../components";
 
 const Feedback = () => (
@@ -10,7 +10,7 @@ const Feedback = () => (
     className={`${styles.paddings} ${styles.flexColLg} relative z-10 flex flex-col items-center justify-center`}
   >
     <div className="text-center">
-      <TitleText title="Let's Talk." />
+      <TitleText title="Let's Talk." textSytles="text-[40px]"/>
       <div>
         <motion.p
           variants={fadeIn("up", "tween", 0.2, 1)}

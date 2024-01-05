@@ -5,8 +5,16 @@ import { TypingText } from "../components";
 import { fadeIn, staggerContainer } from "../utils/motion";
 import { teamMembers } from "../constants";
 import { TeamCard } from "../components/TeamCard";
+import { useRouter } from "next/navigation";
+import { Button } from "../components/Button";
 
-const About = () => (
+const About = () => {
+  const router = useRouter();
+
+  const viewmembers = () => {
+    router.push("/team");
+  }
+ return (
   <section
     className={`${styles.paddings} relative z-10 mt-20 flex flex-col gap-y-20`}
     id="about"
@@ -65,11 +73,14 @@ const About = () => (
       </motion.p>
     </div>
     <div className={`${styles.flexCenter} flex-wrap gap-5`}>
-      {teamMembers.map((team) => {
+      {teamMembers.slice(0,3).map((team) => {
         return <TeamCard key={team.id} {...team} />;
       })}
     </div>
+    <div className={`${styles.flexCenter}`}>
+      <Button title="See more" onClick={viewmembers} />
+    </div>
   </section>
-);
+)};
 
 export default About;

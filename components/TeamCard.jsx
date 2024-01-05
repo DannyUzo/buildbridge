@@ -7,11 +7,8 @@ export const TeamCard = ({
   imgUrl,
   name,
   role,
-  techStack,
   twitter,
-  twitterImg,
   linkedIn,
-  linkedInImg,
 }) => (
   <motion.div
     variants={fadeIn('up', 'tween', 0.2, 1)}
@@ -31,14 +28,11 @@ export const TeamCard = ({
       <p className="mt-[8px] font-normal sm:text-[20px] text-center text-[14px] text-white ">
         {role}
       </p>
-      <p className="mt-[14px]  font-normal text-center sm:text-[12px] text-[12px] text-white">
-        {techStack}
-      </p>
     </div>
     <div className="flex gap-3">
       <a href={twitter}>
         <img
-          src={twitterImg}
+          src="/twitter.svg"
           alt="twitter"
           className="w-[22px] h-[22px] object-contain"
         />
@@ -46,7 +40,7 @@ export const TeamCard = ({
       {linkedIn && (
       <a href={linkedIn}>
         <img
-          src={linkedInImg}
+          src="/linkedin.svg"
           alt="twitter"
           className="w-[24px] h-[24px] object-contain"
         />

@@ -38,54 +38,47 @@ export const teamMembers = [
     imgUrl: '/DevEmmy.jpg',
     name: 'Emmanuel Olaosebikan',
     role: 'CEO | Senior developer',
-    techStack: 'React,Typescript,NodeJs',
     twitter: 'https://twitter.com/DevEmmy_',
-    twitterImg: '/twitter.svg',
     linkedIn: 'https://www.linkedin.com/in/devemmy/',
-    linkedInImg: '/linkedin.svg'
-    
   },
   {
     id: '2',
     imgUrl: '/DevDann.jpg',
     name: 'Daniel Uzodinma',
     role: 'Frontend developer',
-    techStack: 'React,Typescript,Tailwind',
     twitter: 'https://twitter.com/DannyX236',
-    twitterImg: '/twitter.svg',
     linkedIn: 'https://www.linkedin.com/in/daniel-uzodinma-6ba3b7293',
-    linkedInImg: '/linkedin.svg'
   },
   {
     id: '3',
     imgUrl: '/DevPres.jpg',
     name: 'Olaniyan Precious',
     role: 'Frontend developer',
-    techStack: 'React, HTML, CSS, JS',
     twitter: 'https://twitter.com/historyreigns?t=dYv0KRDAMuAzhtF2IL291A&s=09',
-    twitterImg: '/twitter.svg',
     linkedIn: 'https://www.linkedin.com/in/precious-olaniyan-49886125a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ',
-    linkedInImg: '/linkedin.svg'
   },
   {
     id: '4',
-    imgUrl: '/DevSimeon.jpg',
-    name: 'Simeon Ogunyinka',
-    role: 'Frontend Developer',
-    techStack: 'React, HTML, CSS',
-    twitter: 'https://twitter.com/OgunyinkaSimeon',
-    twitterImg: '/twitter.svg',
-    linkedIn: 'https://www.linkedin.com/in/simeon-ogunyinka-89144b280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-    linkedInImg: '/linkedin.svg'
+    imgUrl: '/DevTosin.jpg',
+    name: 'Ayoola Tosin',
+    role: 'Brand Designer',
+    twitter: 'https://twitter.com/young_ayoola',
+    linkedIn: 'https://www.linkedin.com/in/ayoola-emma-tosin-9549231b5',
   },
   {
     id: '5',
+    imgUrl: '/DevSimeon.jpg',
+    name: 'Simeon Ogunyinka',
+    role: 'Frontend Developer',
+    twitter: 'https://twitter.com/OgunyinkaSimeon',
+    linkedIn: 'https://www.linkedin.com/in/simeon-ogunyinka-89144b280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+  },
+  {
+    id: '6',
     imgUrl: '/DevBobs.jpg',
     name: 'Black Bobs',
     role: 'Frontend Developer',
-    techStack: 'React & Tailwind',
     twitter: 'https://twitter.com/bobs_dev',
-    twitterImg: '/twitter.svg',
   }
 ]
 
