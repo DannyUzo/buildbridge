@@ -10,7 +10,7 @@ const Feedback = () => (
     className={`${styles.paddings} ${styles.flexColLg} relative z-10 flex flex-col items-center justify-center`}
   >
     <div className="text-center">
-      <TitleText title="Let's Talk." textSytles="text-[40px]"/>
+      <TitleText title="Let's Talk." textSytles="text-[40px]" />
       <div>
         <motion.p
           variants={fadeIn("up", "tween", 0.2, 1)}
@@ -25,7 +25,7 @@ const Feedback = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: "false", amount: 0.25 }}
-      className={`${styles.innerwidth} mx-auto flex lg:flex-row gap-6 flex-col`}
+      className={`${styles.innerWidth} mx-auto flex lg:flex-row gap-6 flex-col`}
     >
       <motion.div
         variants={fadeIn("right", "tween", 0.2, 1)}

@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import styles from "../styles";
 import { InsightCard, TypingText } from "../components";
-import { staggerContainer, fadeIn} from "../utils/motion";
+import { staggerContainer, fadeIn } from "../utils/motion";
 import { insights } from "../constants";
 
 const Blog = () => (
@@ -12,7 +12,7 @@ const Blog = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: "false", amount: 0.25 }}
-      className={`${styles.innerwidth} mx-auto flex  flex-col`}
+      className={`${styles.innerWidth} mx-auto flex  flex-col`}
     >
       <TypingText title="| Our Blog" textStyles="text-center" />
       <div>

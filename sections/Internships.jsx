@@ -13,7 +13,7 @@ const Internships = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: "false", amount: 0.25 }}
-      className={`${styles.innerwidth} mx-auto flex lg:flex-row flex-col gap-8`}
+      className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
     >
       <motion.div
         variants={planetVariants("left")}
@@ -39,7 +39,6 @@ const Internships = () => (
             ))}
           </div>
           <div className="flex flex-wrap gap-4">
-            {/* <Button title="More info" /> */}
             <Button title="Coming soon" variant="bg-slate-600" />
           </div>
         </div>
