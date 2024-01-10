@@ -1,17 +1,11 @@
-import { motion } from 'framer-motion';
-import Image from 'next/image';
+import { motion } from "framer-motion";
+import Image from "next/image";
 
-import { fadeIn } from '../utils/motion';
+import { fadeIn } from "../utils/motion";
 
-export const TeamCard = ({
-  imgUrl,
-  name,
-  role,
-  twitter,
-  linkedIn,
-}) => (
+export const TeamCard = ({ imgUrl, name, role, twitter, linkedIn }) => (
   <motion.div
-    variants={fadeIn('up', 'tween', 0.2, 1)}
+    variants={fadeIn("up", "tween", 0.2, 1)}
     className="flex w-[320px] h-[488px] flex-col items-center justify-between gap-y-1 gradient-05 p-4 rounded-[32px] border-[1px] border-[#6a6a6a] relative"
   >
     <Image
@@ -30,21 +24,23 @@ export const TeamCard = ({
       </p>
     </div>
     <div className="flex gap-3">
-      <a href={twitter}>
-        <img
-          src="/twitter.svg"
-          alt="twitter"
-          className="w-[22px] h-[22px] object-contain"
-        />
-      </a>
+      {twitter && (
+        <a href={twitter}>
+          <img
+            src="/twitter.svg"
+            alt="twitter"
+            className="w-[22px] h-[22px] object-contain"
+          />
+        </a>
+      )}
       {linkedIn && (
-      <a href={linkedIn}>
-        <img
-          src="/linkedin.svg"
-          alt="twitter"
-          className="w-[24px] h-[24px] object-contain"
-        />
-      </a>
+        <a href={linkedIn}>
+          <img
+            src="/linkedin.svg"
+            alt="linkedIn"
+            className="w-[24px] h-[24px] object-contain"
+          />
+        </a>
       )}
     </div>
   </motion.div>

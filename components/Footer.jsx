@@ -1,9 +1,9 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
-import styles from '../styles';
-import { footerVariants } from '../utils/motion';
+import styles from "../styles";
+import { footerVariants } from "../utils/motion";
 
 const Footer = () => (
   <motion.footer
@@ -20,7 +20,6 @@ const Footer = () => (
             Connecting Ideas, Creating Opportunities.
           </span>
         </h4>
-
       </div>
       <div className="flex flex-col">
         <div className="mb-[50px] h-[2px] bg-white opacity-10" />
@@ -29,7 +28,7 @@ const Footer = () => (
             Build Bridge
           </h4>
           <p className="font-normal text-[14px] text-white opacity-50">
-            Copyright 2024. All rights reserved.
+            Copyright &copy; 2024. All rights reserved.
           </p>
           {/* <div className="flex gap-4">
             <p className="text-secondary-white">Terms & Conditions</p>
