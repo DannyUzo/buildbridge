@@ -1,11 +1,11 @@
-"use client";
+'use client';
 
-import { useForm, ValidationError } from "@formspree/react";
+import { useForm, ValidationError } from '@formspree/react';
 
 const ContactCard = () => {
-  const [state, handleSubmit] = useForm("xpzgvork");
+  const [state, handleSubmit] = useForm('xpzgvork');
   if (state.succeeded) {
-    alert("Message Sent. Thanks for reaching out!");
+    alert('Message Sent. Thanks for reaching out!');
 
     return <ContactCard />;
   }

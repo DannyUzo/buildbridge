@@ -1,4 +1,4 @@
-import styles from "../styles";
+import styles from '../styles';
 
 // Please what does this mean,it's seems like you didn't use the conponent
 const NewFeatures = ({ imgUrl, title, subtitle }) => (
